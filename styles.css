@@ -103,3 +103,58 @@ section {
   line-height: 1rem;
   font-weight: light;
 }
+
+/* Skills section */
+
+#skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-heading {
+  width: auto;
+  padding: 28px 10px 10px;
+  margin: 10px auto;
+  font-weight: 400;
+  text-align: center; /* optional but looks clean */
+}
+
+.section-heading span {
+  font-size: 40px;
+  color: #2857a4;
+  display: inline-block;
+  padding-top: 16px;
+  margin-right: 0.5rem;
+}
+.skills-display {
+  width: 70%;
+  height: 15rem;
+  margin: 2rem auto;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.skill-bar {
+  width: 6rem;
+  height: 2rem;
+  border-radius: 3rem;
+  margin-top: 0.5rem;
+  border: 2px solid white;
+  background-color: lightgray;
+  overflow: hidden;
+}
+.skill-progress {
+  margin: 0 3rem 0 0;
+  width: 3rem;
+  height: 2rem;
+  border-radius: 3rem 0 0 3rem;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 2px 2px gray;
+  color: white;
+}
