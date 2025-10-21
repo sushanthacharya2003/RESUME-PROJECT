@@ -108,6 +108,7 @@ section {
 
 #skills {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -135,23 +136,84 @@ section {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  border: none;
 }
 .skill-bar {
-  width: 6rem;
-  height: 2rem;
+  width: 13rem;
+  height: 4rem;
   border-radius: 3rem;
   margin-top: 0.5rem;
   border: 2px solid white;
   background-color: lightgray;
   overflow: hidden;
 }
-.skill-progress {
-  margin: 0 3rem 0 0;
-  width: 3rem;
-  height: 2rem;
+.skill-1 {
+  margin: 0 6rem 0 0;
+  width: auto;
+  height: 4rem;
   border-radius: 3rem 0 0 3rem;
   background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 2px 2px gray;
+  color: white;
+}
+.skill-2 {
+  margin: 0 2rem 0 0;
+  width: auto;
+  height: 4rem;
+  border-radius: 3rem 0 0 3rem;
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 2px 2px gray;
+  color: white;
+}
+.skill-3 {
+  margin: 0 4rem 0 0;
+  width: auto;
+  height: 4rem;
+  border-radius: 3rem 0 0 3rem;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 2px 2px gray;
+  color: white;
+}
+.skill-4 {
+  margin: 0 7rem 0 0;
+  width: auto;
+  height: 4rem;
+  border-radius: 3rem 0 0 3rem;
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 2px 2px gray;
+  color: white;
+}
+.skill-5 {
+  margin: 0 3rem 0 0;
+  width: auto;
+  height: 4rem;
+  border-radius: 3rem 0 0 3rem;
+  background-color: skyblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 2px 2px gray;
+  color: white;
+}
+.skill-6 {
+  margin: 0 5rem 0 0;
+  width: auto;
+  height: 4rem;
+  border-radius: 3rem 0 0 3rem;
+  background-color: rgb(112, 69, 76);
   display: flex;
   align-items: center;
   justify-content: center;
