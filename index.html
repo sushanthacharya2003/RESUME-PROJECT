@@ -14,6 +14,12 @@
 
 <body class="container-fluid">
   <header class="body-header container-fluid">
+    <input type="checkbox" id="menu-toggle" style="display: none;">
+
+    <label for="menu-toggle" class="hamburger">
+      <i class="fas fa-bars"></i>
+
+    </label>
     <nav class="text-center mt-2">
       <ul class="horizontal-list text-center nav-menu" style="list-style: none; padding: 0">
         <li style="display: inline-block; margin: 0 15px">
@@ -45,10 +51,6 @@
         </li>
       </ul>
 
-      <div class="hamburger">
-        <i class="fa"></i>
-
-      </div>
     </nav>
 
     <div id="name-social-container">
@@ -305,7 +307,6 @@
       </div>
     </section>
 
-
     <!--PORTFOLIO SECTION-->
 
     <section class="container-fluid" id="portfolio">
@@ -317,7 +318,7 @@
       </h1>
       <div class="card-container d-flex flex-wrap justify-content-center">
         <div class="project text-center">
-          <img id="first" src="image/project.jpeg" style="width: 100%; height: 22rem;" alt="project">
+          <img id="first" src="image/project.jpeg" style="width: 20rem; height: 15rem;" alt="project">
           <div class="info">
             <p style="text-align: center; margin: 1rem; font-weight: 500; color: grey;">Lorem ipsum dolor sit amet
               consectetur adipisicing elit. Rem quasi velit cupiditate, eligendi
@@ -330,7 +331,7 @@
         </div>
 
         <div class="project text-center">
-          <img id="second" src="image/project_2.jpeg" style="width: 100%; height: 22rem;" alt="project_2">
+          <img id="second" src="image/project_2.jpeg" style="width: 20rem; height: 15rem;" alt="project_2">
           <div class="info">
             <p style="text-align: center; margin: 1rem; font-weight: 500; color: grey;">Lorem ipsum dolor sit amet
               consectetur adipisicing elit. Rem quasi velit cupiditate, eligendi ipsam
@@ -342,7 +343,7 @@
         </div>
 
         <div class="project text-center">
-          <img id="third" src="image/project_3.png" style="width: 100%; height: 22rem;" alt="project_3">
+          <img id="third" src="image/project_3.png" style="width: 20rem; height: 15rem;" alt="project_3">
           <div class="info">
             <p style="text-align: center; margin: 1rem; font-weight: 500; color: grey;">Lorem ipsum dolor sit amet
               consectetur adipisicing elit. Rem quasi velit cupiditate, eligendi ipsam
@@ -354,7 +355,7 @@
         </div>
 
         <div class="project text-center">
-          <img id="fourth" src="image/tree.jpeg" style="width: 100%; height: 22rem;" alt="project_4">
+          <img id="fourth" src="image/tree.jpeg" style="width: 20rem; height: 15rem;" alt="project_4">
           <div class="info">
             <p style="text-align: center; margin: 1rem; font-weight: 500; color: grey;">Lorem ipsum dolor sit amet
               consectetur adipisicing elit. Rem quasi velit cupiditate, eligendi ipsam
@@ -366,7 +367,7 @@
         </div>
 
         <div class="project text-center">
-          <img id="fifth" src="image/codezen.png" style="width: 100%; height: 22rem;" alt="project_5">
+          <img id="fifth" src="image/codezen.png" style="width: 20rem; height: 15rem;" alt="project_5">
           <div class="info">
             <p style="text-align: center; margin: 1rem; font-weight: 500; color: grey;">Lorem ipsum dolor sit amet
               consectetur adipisicing elit. Rem quasi velit cupiditate, eligendi ipsam
@@ -378,7 +379,7 @@
         </div>
 
         <div class="project text-center">
-          <img id="sixth" src="image/codezen_2.png" style="width: 100%; height: 22rem;" alt="project_6">
+          <img id="sixth" src="image/codezen_2.png" style="width: 20rem; height: 15rem;" alt="project_6">
           <div class="info">
             <p style="text-align: center; margin: 1rem; font-weight: 500; color: grey;">Lorem ipsum dolor sit amet
               consectetur adipisicing elit. Rem quasi velit cupiditate, eligendi ipsam
@@ -393,13 +394,13 @@
     </section>
     <!--CONTACT SECTION-->
     <section class="container-fluid"
-      style="width: 98%; height: auto; background: linear-gradient(to right,violet,blue); border: 2px solid black;"
+      style="width: 100%; height: auto; background: linear-gradient(to right,violet,blue); border: none; padding-bottom: 2rem;"
       id="contact">
       <h1 class="section-heading mb75px">
         <span>
           <i class="fas far fa-comment" style="color: white;"></i>
         </span>
-        <span style="color: white;">Contact</span>
+        <span style="color: white; font-weight: bold;">Contact</span>
       </h1>
 
       <form action="#">
@@ -419,7 +420,7 @@
               SEND MESSAGE</button>
           </div>
         </div>
-        <div class="connect">
+        <div class="connect mb-2">
           <h2 style="color: white;">Get In Touch</h2>
           <p style="text-align: left;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ipsum, nisi
             ducimus et neque adipisci nostrum
