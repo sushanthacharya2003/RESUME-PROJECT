@@ -490,6 +490,7 @@ textarea::placeholder {
     text-align: start;
     margin: 2rem;
   }
+  /*hamburger icon added*/
   #menu-toggle:checked + .hamburger + nav .nav-menu {
     display: flex;
     flex-wrap: wrap;
